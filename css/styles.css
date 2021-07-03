@@ -1,0 +1,27 @@
+body {
+  background-color: #dfeeea;
+  margin: 50px 0;
+}
+
+h1 {
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  color: #305e63;
+}
+
+p {
+  font-family: "Overpass", sans-serif;
+  font-size: 32px;
+  line-height: 1;
+  color: #5f8b7f;
+}
+
+.fab {
+  color: #495057;
+  padding: 0 5px;
+}
+
+.social-icons {
+  text-align: center;
+}
