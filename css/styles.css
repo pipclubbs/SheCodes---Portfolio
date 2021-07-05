@@ -1,5 +1,6 @@
 :root {
   --brand-colour: #305e63;
+  --main-text-colour: #5f8b7f;
   --brand-background: #dfeeea;
   --header-font-family: "Overpass", sans-serif;
 }
@@ -34,9 +35,15 @@ p {
   font-family: "Overpass", sans-serif;
   font-size: 32px;
   line-height: 1;
-  color: #5f8b7f;
+  color: var(--main-text-colour);
+  margin-top: 50px;
 }
 
+.home-page-image {
+  width: 85%;
+  display: block;
+  margin: 10px auto;
+}
 .page-header {
   background-color: var(--brand-background);
   padding: 30px 0 10px 30px;
