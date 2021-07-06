@@ -39,13 +39,6 @@ p {
   color: var(--main-text-colour);
 }
 
-.logo {
-  max-width: 25px;
-  border-radius: 4px;
-  margin-right: 10px;
-  padding-bottom: 10px;
-}
-
 .homepage-image {
   display: block;
   margin: 0 auto;
@@ -108,4 +101,31 @@ p {
 
 .footer-links:hover {
   color: #5a687d;
+}
+
+@media (max-width: 415px) {
+  h1 {
+    font-size: 34px;
+  }
+
+  h2,
+  h3 {
+    font-size: 16px;
+  }
+
+  .homepage-image-caption {
+    font-size: 10pt;
+    margin-left: 130px;
+  }
+
+  .contact-button,
+  .projects-button {
+    font-size: 10pt;
+  }
+
+  .footer,
+  .footer-links {
+    font-size: 12pt;
+    margin-top: 50px;
+  }
 }
