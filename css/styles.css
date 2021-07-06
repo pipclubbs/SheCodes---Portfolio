@@ -39,10 +39,15 @@ p {
   margin-top: 50px;
 }
 
-.home-page-image {
-  width: 85%;
+.homepage-image {
   display: block;
-  margin: 10px auto;
+  margin: 0 auto;
+}
+
+.homepage-image-caption {
+  text-align: right;
+  font-size: 15px;
+  margin: 15px 0;
 }
 .page-header {
   background-color: var(--brand-background);
