@@ -113,6 +113,10 @@ p {
     font-size: 16px;
   }
 
+  h2 {
+    padding-left: 10px;
+  }
+
   .homepage-image-caption {
     font-size: 10pt;
     margin-left: 130px;
