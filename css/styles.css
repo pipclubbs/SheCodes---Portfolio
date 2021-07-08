@@ -115,6 +115,25 @@ p {
   max-height: 300px;
 }
 
+.skills-section {
+  background-color: var(--brand-background);
+}
+
+.skills-icons {
+  font-size: 14px;
+  line-height: 2;
+  min-width: 120px;
+}
+
+.icon-images {
+  max-width: 50px;
+}
+
+.fab,
+.fas {
+  font-size: 25pt;
+}
+
 @media (max-width: 415px) {
   h1 {
     font-size: 34px;
