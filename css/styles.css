@@ -119,6 +119,10 @@ p {
   background-color: var(--brand-background);
 }
 
+.skills-header {
+  font-size: 34pt;
+}
+
 .skills-icons {
   font-size: 14px;
   line-height: 2;
