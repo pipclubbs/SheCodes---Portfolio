@@ -57,13 +57,13 @@ p {
   padding-right: 25px;
 }
 
-.contact-button {
+.brand-button {
   padding: 12px 20px;
   color: var(--brand-background);
   background-color: var(--brand-colour);
 }
 
-.contact-button:hover {
+.brand-button:hover {
   color: var(--brand-colour);
   background-color: var(--brand-background);
   border: none;
@@ -119,7 +119,7 @@ p {
   background-color: var(--brand-background);
 }
 
-.skills-header {
+.section-header {
   font-size: 34pt;
 }
 
@@ -136,6 +136,10 @@ p {
 .fab,
 .fas {
   font-size: 25pt;
+}
+
+.project-image {
+  max-width: 75%;
 }
 
 @media (max-width: 415px) {
