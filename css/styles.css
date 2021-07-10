@@ -97,10 +97,15 @@ p {
   font-size: 18px;
   opacity: 80%;
   padding: 0 5px;
+  text-decoration: none;
 }
 
 .footer-links:hover {
-  color: #5a687d;
+  color: var(--brand-colour);
+}
+
+.footer-links.opensource:hover {
+  text-decoration: underline;
 }
 
 .about-text {
