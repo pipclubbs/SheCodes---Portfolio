@@ -168,6 +168,7 @@ p {
 
   h2 {
     padding-left: 10px;
+    margin-left: 40px;
   }
 
   .homepage-image-caption {
@@ -184,5 +185,10 @@ p {
   .footer-links {
     font-size: 12pt;
     margin-top: 50px;
+  }
+
+  .page-header {
+    padding-left: 0;
+    padding-top: 20px;
   }
 }
