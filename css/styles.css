@@ -173,7 +173,6 @@ p {
 
   .homepage-image-caption {
     font-size: 10pt;
-    margin-left: 130px;
   }
 
   .brand-button,
@@ -184,7 +183,6 @@ p {
   .footer,
   .footer-links {
     font-size: 12pt;
-    margin-top: 20px;
   }
 
   .footer,
@@ -199,5 +197,22 @@ p {
   .page-header {
     padding-left: 0;
     padding-top: 20px;
+  }
+
+  .about-section {
+    margin-top: 0 !important;
+  }
+
+  .about-text {
+    padding-bottom: 0 !important;
+  }
+  .about-image {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .section-header {
+    font-size: 34px;
+    margin: 0;
   }
 }
