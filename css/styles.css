@@ -211,6 +211,9 @@ p {
     margin: 0 auto;
   }
 
+  .about-nav {
+    margin: 20px 0 0 0;
+  }
   .section-header {
     font-size: 34px;
     margin: 0;
