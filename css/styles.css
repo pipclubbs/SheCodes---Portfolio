@@ -204,18 +204,39 @@ p {
   }
 
   .about-text {
-    padding-bottom: 0 !important;
+    padding-bottom: 15px !important;
+    text-align: center !important;
   }
+
   .about-image {
     display: block;
     margin: 0 auto;
   }
 
-  .about-nav {
+  .nav-buttons {
     margin: 20px 0 0 0;
   }
-  .section-header {
+  .about-section-header {
     font-size: 34px;
     margin: 0;
+  }
+
+  .project-image {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .project-grid {
+    margin-top: 20px !important;
+  }
+
+  .section-header {
+    margin-top: 15px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .project-app-button {
+    text-align: center;
   }
 }
