@@ -156,6 +156,15 @@ p {
   text-decoration: underline;
 }
 
+.contact-info-text a {
+  color: var(--brand-colour);
+  font-size: 18px;
+}
+
+.contact-info-text a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 415px) {
   h1 {
     font-size: 34px;
@@ -238,5 +247,19 @@ p {
 
   .project-app-button {
     text-align: center;
+  }
+
+  .contact-info-text {
+    margin-top: 20px !important;
+  }
+
+  .contact-info-text h3 {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .contact-info-text a {
+    text-decoration: underline;
+    font-size: 14px;
   }
 }
