@@ -9,17 +9,16 @@ body {
   margin: 57px 0;
 }
 
-h1 {
-  font-family: var(--header-font-family);
-  font-weight: bold;
-  font-size: 68px;
-  color: var(--brand-colour);
-}
-
+h1,
 h2,
 h3 {
   font-family: var(--header-font-family);
   color: var(--brand-colour);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 68px;
 }
 
 h2 {
@@ -152,16 +151,11 @@ p {
   text-decoration: none;
 }
 
-.contact-url:hover {
-  text-decoration: underline;
-}
-
 .contact-info-text a {
   color: var(--brand-colour);
   font-size: 18px;
 }
-
-.contact-info-text a:hover {
+.contact-url:hover .contact-info-text a:hover {
   text-decoration: underline;
 }
 
@@ -180,10 +174,7 @@ p {
     margin-left: 40px;
   }
 
-  .homepage-image-caption {
-    font-size: 10pt;
-  }
-
+  .homepage-image-caption,
   .brand-button,
   .projects-button {
     font-size: 10pt;
@@ -216,7 +207,6 @@ p {
     padding-bottom: 15px !important;
     text-align: center !important;
   }
-
   .about-image {
     display: block;
     margin: 0 auto;
